@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ford</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/modal.css">
+</head>
+
+<body>
+  <div class="modal">
+    <div class="modal-content">
+      <div class="info">
+        <div class="info-col">
+          <p class="info-image"></p>
+          <p>Modelo</p>
+          <p>Altura da caçamba (mm)</p>
+          <p>Altura do veículo (mm)</p>
+        </div>
+        <div class="info-col">
+          <p class="info-image">
+            <img src="img/XL Cabine.jpg">
+          </p>
+          <p>XL Cabine Simples 2.2 Diesel 4x4 MT 2022</p>
+          <p>511</p>
+          <p>1821</p>
+        </div>
+        <div class="info-col">
+          <p class="info-image">
+            <img src="img/xls 2.2 diesel.jpg">
+          </p>
+          <p>XL Cabine Simples 2.2 Diesel 4x4 MT 2022</p>
+          <p>511</p>
+          <p>1821</p>
+        </div>
+      </div>
+
+      <button>Fechar</button>
+    </div>
+  </div>
+
+  <header>
+    <div>
+      <img id="logocabecalho" src="img/logo-ford-256.png">
+
+      <nav id="cabecalho">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lancamento.html">Lançamento</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <iframe class="video" src="https://www.youtube-nocookie.com/embed/vQsryuNmsL0?controls=0&autoplay=1&modestbranding=0&loop=1&mute=1&rel=0&hd=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <ul class="produtos">
+      <li>
+        <div>
+          <img class="carros" src="img/XL Cabine.jpg">
+        </div>
+        <div class="conteudo-produtos">
+          <div class="conteudo-checkbox">
+            <label class="checkbox">
+              <input type="checkbox" onclick="compareCars()">
+            </label>
+          </div>
+          <div class="conteudo-descricao">
+            <p class="produto-descricao">XL Cabine Simples 2.2 Diesel 4X4 MT 2022</p>
+            <p class="produto-preco">Preço sugerido: R$183.850,00</p>
+          </div>
+          <img src="img/info.png">
+        </div>
+      </li>
+      <li>
+        <div>
+          <img class="carros" src="img/xls 2.2 diesel.jpg">
+        </div>
+        <div class="conteudo-produtos">
+          <div class="conteudo-checkbox">
+            <label class="checkbox">
+              <input type="checkbox" onclick="compareCars()">
+            </label>
+          </div>
+          <div class="conteudo-descricao">
+            <p class="produto-descricao">XLS 2.2 Diesel 4X4 AT 2022</p>
+            <p class="produto-preco">Preço sugerido: R$220.690,00</p>
+          </div>
+          <img src="img/info.png">
+        </div>
+      </li>
+      <li>
+        <div>
+          <img class="carros" src="img/storm.jpg">
+        </div>
+        <div class="conteudo-produtos">
+          <div class="conteudo-checkbox">
+            <label class="checkbox">
+              <input type="checkbox" onclick="compareCars()">
+            </label>
+          </div>
+          <div class="conteudo-descricao">
+            <p class="produto-descricao">Storm 3.2 Diesel 4X4 AT 2022</p>
+            <p class="produto-preco">Preço sugerido: R$222.790,00</p>
+          </div>
+          <img src="img/info.png">
+        </div>
+      </li>
+    </ul>
+
+    <input class="comparar" type="submit" value="Comparar Carros" class="comparar">
+
+  </main>
+
+  <footer>
+    <div class="redes-sociais">
+      <p>Redes Sociais</p>
+      <nav>
+        <ul>
+          <li class="rede"><a href="https://pt-br.facebook.com/FordBrasil/" target="_blank"><img src="img/facebook-50.png"></a></li>
+          <li class="rede"><a href="https://www.youtube.com/user/fordbrasil" target="_blank"><img src="img/youtube-squared-50.png"></a></li>
+          <li class="rede"><a href="https://www.instagram.com/fordbrasil/" target="_blank"><img src="img/instagram-logo-50.png"></a></li>
+        </ul>
+      </nav>
+    </div>
+    <img src="img/ford-96.png">
+  </footer>
+
+  <script src="js/compare.js"></script>
+</body>
+
+</html>

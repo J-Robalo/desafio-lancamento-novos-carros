@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ford</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div>
+      <img id="logocabecalho" src="img/logo-ford-256.png">
+
+      <nav id="cabecalho">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lancamento.html">Lançamento</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-contato">
+    <img class="diesel" src="img/xls 2.2 diesel.jpg">
+
+    <form onsubmit="enviar(event)">
+      <label for="nomesobrenome">Nome e sobrenome</label>
+      <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+      <label for="email">E-mail</label>
+      <input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com" required>
+
+      <label for="telefone">Telefone</label>
+      <input type="text" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX" required>
+
+      <fieldset>
+        <legend>Qual a finalidade do seu contato?</legend>
+        <select id="finalidade">
+          <option selected value="elogio">Elogio</option>
+          <option value="reclamacao">Reclamação</option>
+          <option value="solicitacao">Solicitação</option>
+          <option value="duvida">Dúvida</option>
+        </select>
+      </fieldset>
+
+      <label for="mensagem">Mensagem</label>
+      <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+      <div class="botao-envio">
+        <input type="submit" value="Enviar" class="enviar" onclick="enviar">
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <div class="redes-sociais">
+      <p>Redes Sociais</p>
+      <nav>
+        <ul>
+          <li class="rede"><a href="https://pt-br.facebook.com/FordBrasil/" target="_blank"><img src="img/facebook-50.png"></a></li>
+          <li class="rede"><a href="https://www.youtube.com/user/fordbrasil" target="_blank"><img src="img/youtube-squared-50.png"></a></li>
+          <li class="rede"><a href="https://www.instagram.com/fordbrasil/" target="_blank"><img src="img/instagram-logo-50.png"></a></li>
+        </ul>
+      </nav>
+    </div>
+    <img src="img/ford-96.png">
+  </footer>
+  <script type="text/javascript" src="contato.js"></script>
+</body>
+
+</html>
