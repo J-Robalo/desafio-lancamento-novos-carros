@@ -133,6 +133,24 @@ form legend {
   margin-top: 50px;
 }
 
+#finalidade {
+  padding: 3px;
+  margin-bottom: 5px;
+}
+
+.texto-adicional {
+  width: 300px;
+  font-size: 13px;
+  text-align: justify;
+  color: #afafaf;
+}
+
+.checkbox {
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+}
+
 .enviar,
 .comparar {
   width: 20%;
@@ -202,7 +220,7 @@ form legend {
 }
 
 .botao-envio > input.enviar {
-  width: 60%;
+  width: 40%;
 }
 
 .video {

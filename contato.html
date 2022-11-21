@@ -37,7 +37,7 @@
       <input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com" required>
 
       <label for="telefone">Telefone</label>
-      <input type="text" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX" required>
+      <input type="text" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx" required>
 
       <fieldset>
         <legend>Qual a finalidade do seu contato?</legend>
@@ -51,6 +51,14 @@
 
       <label for="mensagem">Mensagem</label>
       <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+      <p class="texto-adicional">Os dados serão mantidos em nossa base de dados, só enquanto for desejado por você. A qualquer momento, será possível editar ou remover tais dados. <a href="https://www.ford.com.br/politica-de-privacidade/" target="_blank">Termos e Condições</a></p>
+      <label class="checkbox"><input type="checkbox" required>
+        <p>Sim. Li e concordo com os termos.</p>
+      </label>
+      <label class="checkbox"><input type="checkbox">
+        <p>Sim. Também quero receber descontos e novidades.</p>
+      </label>
 
       <div class="botao-envio">
         <input type="submit" value="Enviar" class="enviar" onclick="enviar">

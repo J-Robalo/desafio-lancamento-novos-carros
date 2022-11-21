@@ -1,12 +1,12 @@
 .modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: rgba(0, 0, 0, 0.5);
 }
 
@@ -40,4 +40,32 @@
 
 .info .info-col p:not(.info-image) {
   height: 70px;
+}
+
+.info-col p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-collapse: collapse;
+}
+
+.info-col:first-child {
+  font-weight: bold;
+}
+
+.info-col p:nth-child(even) {
+  background: rgb(236, 233, 233);
+}
+
+.btn-fechar {
+  width: 100px;
+  padding: 15px 0;
+  background: #1351d8;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
 }
