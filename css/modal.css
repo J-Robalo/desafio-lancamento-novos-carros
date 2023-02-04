@@ -1,5 +1,5 @@
 .modal {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -8,6 +8,10 @@
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.5);
+}
+
+.modal.abrir {
+  display: flex;
 }
 
 .modal .modal-content {
