@@ -48,6 +48,11 @@ main {
   margin-bottom: 10px;
 }
 
+.carousel {
+  width: 60%;
+  margin: auto;
+}
+
 .item-carousel {
   display: none;
 }
