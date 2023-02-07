@@ -52,6 +52,10 @@ main {
   display: none;
 }
 
+.item-carousel img {
+  width: 100%;
+}
+
 .show-image {
   display: block !important;
 }
